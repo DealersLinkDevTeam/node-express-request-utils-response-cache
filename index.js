@@ -2,7 +2,7 @@
 /* eslint no-unused-vars: warn */
 
 // Dependencies
-const __ = require('@mediaxpost/lodashext');
+const __ = require('@dealerslink/lodash-extended');
 const moment = require('moment');
 const ObjectKeyCache = require('@dealerslink/node-object-key-cache');
 const RedisClient = require('redis').RedisClient;
