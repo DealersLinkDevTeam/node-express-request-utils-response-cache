@@ -1,6 +1,6 @@
 {
   "name": "@dealerslink/node-express-request-utils-response-cache",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A Response Cache for ExpressJS and RequestUtils",
   "main": "index.js",
   "scripts": {
@@ -25,25 +25,25 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "codacy-coverage": "^3.0.0",
-    "cross-env": "^5.1.4",
-    "eslint": "^4.19.1",
-    "gulp": "^3.9.1",
-    "gulp-eslint": "^4.0.2",
-    "gulp-mocha": "^5.0.0",
-    "gulp-prettier": "^1.1.0",
-    "lolex": "^2.6.0",
-    "mocha": "^5.1.1",
-    "nyc": "^13.0.0",
-    "prettier": "^1.12.1"
+    "cross-env": "^5.2.0",
+    "eslint": "^5.4.0",
+    "gulp": "^4.0.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-mocha": "^6.0.0",
+    "gulp-prettier": "^2.0.0",
+    "lolex": "^2.7.1",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1",
+    "prettier": "^1.14.2"
   },
   "dependencies": {
-    "@dealerslink/lodash-extended": "^1.0.0",
-    "@dealerslink/node-express-request-utils": "^1.0.2",
-    "@dealerslink/node-object-key-cache": "^1.0.3",
-    "@mediaxpost/memory-cache": "^1.1.4",
+    "@dealerslink/lodash-extended": "^1.1.0",
+    "@dealerslink/node-express-request-utils": "^1.1.0",
+    "@dealerslink/node-object-key-cache": "^1.1.0",
+    "@mediaxpost/memory-cache": "^1.2.0",
     "bluebird": "^3.5.1",
-    "logstub": "^1.1.3",
-    "moment": "^2.22.1",
+    "logstub": "^1.2.0",
+    "moment": "^2.22.2",
     "redis": "^2.8.0"
   }
 }

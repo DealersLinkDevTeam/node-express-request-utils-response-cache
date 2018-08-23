@@ -23,8 +23,8 @@ gulp.task('lint', () => {
     .pipe(eslint.failAfterError());
 });
 
-gulp.task('test', ['lint'], () => {
-  return gulp.src('test.js', { read: false }).pipe(mocha())
+gulp.task('test', () => {
+  return gulp.src('test/*.js', { read: false }).pipe(mocha())
     .once('error', () => {
       process.exit(1);
     });
@@ -47,4 +47,4 @@ gulp.task('pretty', () => {
     }));
 });
 
-gulp.task('default', ['test']);
+gulp.task('default', gulp.series('lint', 'test'));
