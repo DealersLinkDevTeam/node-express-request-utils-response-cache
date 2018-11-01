@@ -23,25 +23,25 @@
   ],
   "author": "Jay Reardon",
   "devDependencies": {
-    "chai": "^4.1.2",
-    "codacy-coverage": "^3.0.0",
+    "chai": "^4.2.0",
+    "codacy-coverage": "^3.2.0",
     "cross-env": "^5.2.0",
-    "eslint": "^5.4.0",
+    "eslint": "^5.8.0",
     "gulp": "^4.0.0",
     "gulp-eslint": "^5.0.0",
     "gulp-mocha": "^6.0.0",
     "gulp-prettier": "^2.0.0",
-    "lolex": "^2.7.1",
+    "lolex": "^2.7.5",
     "mocha": "^5.2.0",
-    "nyc": "^13.0.1",
-    "prettier": "^1.14.2"
+    "nyc": "^13.1.0",
+    "prettier": "^1.14.3"
   },
   "dependencies": {
     "@dealerslink/lodash-extended": "^1.1.0",
     "@dealerslink/node-express-request-utils": "^1.1.0",
-    "@dealerslink/node-object-key-cache": "^1.1.0",
+    "@dealerslink/node-object-key-cache": "^1.1.3",
     "@mediaxpost/memory-cache": "^1.2.0",
-    "bluebird": "^3.5.1",
+    "bluebird": "^3.5.2",
     "logstub": "^1.2.0",
     "moment": "^2.22.2",
     "redis": "^2.8.0"
