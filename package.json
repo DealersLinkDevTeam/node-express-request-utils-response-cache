@@ -1,6 +1,6 @@
 {
   "name": "@dealerslink/node-express-request-utils-response-cache",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A Response Cache for ExpressJS and RequestUtils",
   "main": "index.js",
   "scripts": {
@@ -39,7 +39,7 @@
   "dependencies": {
     "@dealerslink/lodash-extended": "^1.1.0",
     "@dealerslink/node-express-request-utils": "^1.1.0",
-    "@dealerslink/node-object-key-cache": "^1.1.3",
+    "@dealerslink/node-object-key-cache": "^1.1.4",
     "@mediaxpost/memory-cache": "^1.2.0",
     "bluebird": "^3.5.2",
     "logstub": "^1.2.0",
